@@ -1,5 +1,5 @@
 import random
-number_of_guesses=4
+number_of_guesses = 4
 user_won = False
 
 print("Welcome to the guessing game!")
@@ -15,7 +15,7 @@ while number_of_guesses > 0:
     if user_guess == correct_answer:
         print("Good guess")
         print("You're correct")
-        user_won=True
+        user_won = True
         break
 
     # Computer tells user whether guess was too high or too low
@@ -29,7 +29,7 @@ while number_of_guesses > 0:
     number_of_guesses -= 1
 
 
-if user_won ==True:
+if user_won == True:
     print("You won!")
 else:
-    print("You lost ")
+    print("You lost")
