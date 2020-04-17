@@ -17,8 +17,7 @@ if missing=="a":
     g=((b/d)*c)
     h=((b*c)/d)
     if (f==g and f==h and g==h and ((f/b)==(c/d)))==True:
-        print("\n"+"the methods seem to agree that a is "+str(f)+" and (a/b)=(c/d)"
-        a=f
+        print("\n"+"the methods seem to agree that a is "+str(f)+" and (a/b)=(c/d)")
     elif (f==g and f==h and g==h and ((f/b)==(c/d)))==False:
         print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as a. This shouldn't happen. Please report this problem and what was inputed to cause this.")
         print("method 1 of 3 says a is "+str(f))
@@ -27,10 +26,10 @@ if missing=="a":
         if ((f/b)==(c/d))==True:
             print("((a/b)=(c/d)) is True")
         elif ((f/b)==(c/d))==False:
-            print("((a/b)=(c/d)) is False when "+str(f)" from method 1 is set as a")
+            print("((a/b)=(c/d)) is False when "+str(f)+" from method 1 is set as a")
 
 if missing=="b":
-    a=float(input("enter a: “))
+    a=float(input("enter a: "))
     print("b is being solved for")
     c=float(input("enter c: "))
     d=float(input("enter d: "))
@@ -40,7 +39,6 @@ if missing=="b":
     h=((a*d)/c)
     if (e==g and e==h and g==h and ((a/e)==(c/d)))==True:
         print("\n"+"the methods seem to agree that b is "+str(e)+" and (a/b)=(c/d)")
-        b=e
     elif (e==g and e==h and g==h and ((a/e==(c/d)))==False:
         print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as b. This shouldn't happen. Please report this problem and what was inputed to cause this.")
         print("method 1 of 3 says b is "+str(e))
@@ -62,7 +60,6 @@ if missing=="c":
     h=((a*d)/b)
     if (e==f and e==h and f==h and ((a/b)==(e/d)))==True:
 		print("\n"+"the methods seem to agree that c is "+str(e)+" and (a/b)=(c/d)")
-		c=e
     elif (e==f and e==h and f==h and ((a/b==(e/d)))==False:
 		print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as c. This shouldn't happen. Please report this problem and what was inputed to cause this.")
 		print("method 1 of 3 says c is "+str(e))
