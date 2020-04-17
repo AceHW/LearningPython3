@@ -18,7 +18,7 @@ if missing=="a":
     h=((b*c)/d)
     if (f==g and f==h and g==h and ((f/b)==(c/d)))==True:
         print("\n"+"the methods seem to agree that a is "+str(f)+" and (a/b)=(c/d)"
-        return a=f
+        a=f
     elif (f==g and f==h and g==h and ((f/b)==(c/d)))==False:
         print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as a. This shouldn't happen. Please report this problem and what was inputed to cause this.")
         print("method 1 of 3 says a is "+str(f))
@@ -40,7 +40,7 @@ if missing=="b":
     h=((a*d)/c)
     if (e==g and e==h and g==h and ((a/e)==(c/d)))==True:
         print("\n"+"the methods seem to agree that b is "+str(e)+" and (a/b)=(c/d)")
-        return b=e
+        b=e
     elif (e==g and e==h and g==h and ((a/e==(c/d)))==False:
         print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as b. This shouldn't happen. Please report this problem and what was inputed to cause this.")
         print("method 1 of 3 says b is "+str(e))
@@ -62,7 +62,7 @@ if missing=="c":
     h=((a*d)/b)
     if (e==f and e==h and f==h and ((a/b)==(e/d)))==True:
 		print("\n"+"the methods seem to agree that c is "+str(e)+" and (a/b)=(c/d)")
-		return c=e
+		c=e
     elif (e==f and e==h and f==h and ((a/b==(e/d)))==False:
 		print("hmm. The methods don't agree and/or the check that (a/b)=(c/d) has failed when the result from method 1 is set as c. This shouldn't happen. Please report this problem and what was inputed to cause this.")
 		print("method 1 of 3 says c is "+str(e))
