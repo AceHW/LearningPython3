@@ -5,7 +5,7 @@ b=0
 c=0
 d=0
 
-while str(missing) not in ("a" or "b" or "c" or "d"):
+while str(missing) not in ("a" "b" "c" "d"):
     missing = input("Which is missing? a or b or c or d? : ")
     
 if missing=="a":
