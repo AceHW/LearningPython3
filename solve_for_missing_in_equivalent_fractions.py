@@ -16,7 +16,7 @@ This might illustrate it better:
  b           d
 
 
-But you know 3 of the 4 variables and are trying to figure out the one you don't know. 
+You know 3 of the 4 variables and are trying to figure out the one you don't know. 
 
 """)
 
