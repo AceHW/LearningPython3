@@ -1,9 +1,24 @@
-# This program is for finding the missing value/var in two equivalent fractions in the format (a/b)=(c/d)
 missing=0
 a=0
 b=0
 c=0
 d=0
+
+print("""
+
+This program solves the common math problem where you have 2 equivalent fractions with one of the numbers missing in the form of (a/b)=(c/d), in that order. 
+
+This might illustrate it better: 
+
+
+ a           c
+---    =    ---
+ b           d
+
+
+But you know 3 of the 4 variables and are trying to figure out the one you don't know. 
+
+""")
 
 while str(missing) not in ("a" "b" "c" "d"):
     missing = input("Which is missing? a or b or c or d? : ")
