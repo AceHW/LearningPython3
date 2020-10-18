@@ -21,11 +21,11 @@ def audio_calc():
             what_bitrate_should_be_tried()
             print('')
         elif str(missing)=='c':
-        	    print('')
-        	    print('You have chosen: c. file size ')
-        	    print('')
-        	    how_much_storage_given_bitrate_and_runtime()
-        	    print('')
+            print('')
+        	print('You have chosen: c. file size ')
+        	print('')
+        	how_much_storage_given_bitrate_and_runtime()
+        	print('')
         elif str(missing)=='d':
             print('')
             print("You have chosen: d. 'What is this thing again? '")
